@@ -39,7 +39,7 @@ export default function App() {
              className="btn-two"
             onClick={() => dispatch({ type: actions.DELETE, payload: x.id })}
           >
-            Delete
+            Delete❌
           </button>
          </div>
         </div>

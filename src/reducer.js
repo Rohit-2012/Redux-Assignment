@@ -20,7 +20,7 @@ export const todoData = (state = initialData, action) => {
       return state;
 
     case actions.COMPLETE:
-      action.payload.isComplete = true;
+      action.payload.isComplete = !(action.payload.isComplete);
       state = [...state];
       return state;
 
